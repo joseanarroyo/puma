@@ -1,0 +1,45 @@
+section {
+	padding: 20px 0;
+}
+
+.intro {
+	padding: 0 25px;
+}
+
+.intro img {
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.intro h1{
+	margin-top: 0;
+	line-height: 1;
+	text-align: center;
+}
+
+.puma-gallery {
+	background-color: #ddd;
+}
+
+.puma-sidebox {
+	background-color: #333;
+	color: #eee;
+	border-radius: 8px 8px;
+	padding: 10px 30px;
+}
+
+.puma-thumbnails {
+	padding: 20px 0;
+}
+
+.puma-thumbnails img {
+	margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+
+	.intro h1{
+		text-align: left;
+	}
+
+}
